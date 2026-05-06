@@ -204,7 +204,7 @@ The UPGMA algorithm creates so-called “ultrametric” phylogenetic trees, whic
   </tbody>
 </table>
 
-
+<img src="./images/mbls207_tutorial6_3.png" width="200">
 
 <table>
   <tr>
@@ -224,7 +224,7 @@ The UPGMA algorithm creates so-called “ultrametric” phylogenetic trees, whic
   </tr>
 </table>
 
-
+<img src="./images/mbls207_tutorial6_4.png" width="200">
 
 Follow the steps above until you have the placement and the branch lengths between all six plants.
 
