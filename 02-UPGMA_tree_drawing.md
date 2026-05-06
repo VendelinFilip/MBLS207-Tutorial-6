@@ -161,11 +161,17 @@ Now that you have thought about the biological meaning of relatedness, let’s s
 
 The UPGMA algorithm creates so-called “ultrametric” phylogenetic trees, which means that it assumes that all the organisms evolve with the same speed. According to this assumption, all evolutionary lineages follow the same molecular clock and every residue has the same probability of mutating in a given period of time. Therefore, if we consider any ancestral organism in the tree (ancestors are represented by an internal node) the total branch length from that node to any of the present-day organisms that descended from it is identical. In other words, the total branch length between any two organisms is the same as two times the branch length between each organism and their most recent ancestor, also known as their last common ancestor (LCA). For example: The distance Plant1 → Plant2 is x, so the branches Ancestor<sub>1,2</sub> → Plant1 and Ancestor<sub>1,2</sub> → Plant2 are both *x/2*. Calculate the length of the branches from the previous question and write them down below the branches.
 
-h. Next, calculate the distance of your cluster (Plant1, Plant2) to the other plants, by calculating the average of the distances of Plant1 and Plant2 to each of the other plants. The result is a new distance matrix. For example: If the distance Plant1 → Plant3 is 0.9 and the distance Plant2 → Plant3 is 0.5, the distance (Plant1, Plant2) → Plant3 will be 0.7. **Note: it is important for this averaging step to use the distances between individual organisms from the very first distance matrix. This is relevant in later stages of the algorithm: when you have already created several clusters and adjusted the distance matrix, averaging the distances of clusters that have already been averaged will lead to different (wrong!) results than averaging distances of individual organisms (correct!).**
-
-i. Find the shortest distance in the new distance matrix. Connect the two plants like before, calculate the branch lengths, and make a new distance matrix.
-
-j. When you join two clusters (or join a plant to a cluster), calculating the branch length becomes a little more complicated. The distance in the distance matrix always refers to the distance from leaf (=endpoint of a branch) to leaf. For example, the distance between the clusters (Plant1, Plant2) and (Plant3, Plant4) is 0.675, so the length of each branch should be 0.338. However, we have to take into account the branches we have already drawn. For our example, it would look like this:
+<ol type="a" start="8">
+  <li>
+    Next, calculate the distance of your cluster (Plant1, Plant2) to the other plants, by calculating the average of the distances of Plant1 and Plant2 to each of the other plants. The result is a new distance matrix. For example: If the distance Plant1 → Plant3 is 0.9 and the distance Plant2 → Plant3 is 0.5, the distance (Plant1, Plant2) → Plant3 will be 0.7. <em><strong>Note:</strong> it is important for this averaging step to use the distances between individual organisms <strong>from the very first distance matrix</strong>. This is relevant in later stages of the algorithm: when you have already created several clusters and adjusted the distance matrix, averaging the distances of clusters that have already been averaged will lead to different (wrong!) results than averaging distances of individual organisms (correct!).</em>
+  </li>
+  <li>
+    Find the shortest distance in the new distance matrix. Connect the two plants like before, calculate the branch lengths, and make a new distance matrix.
+  </li>
+  <li>
+    When you join two clusters (or join a plant to a cluster), calculating the branch length becomes a little more complicated. The distance in the distance matrix always refers to the distance from leaf (=endpoint of a branch) to leaf. For example, the distance between the clusters (Plant1, Plant2) and (Plant3, Plant4) is 0.675, so the length of each branch should be 0.338. However, we have to take into account the branches we have already drawn. For our example, it would look like this:
+  </li>
+</ol>
 
 <table>
   <thead>
@@ -187,22 +193,18 @@ j. When you join two clusters (or join a plant to a cluster), calculating the br
       <td>Plant3</td>
       <td>0.7</td>
       <td>0</td>
-      <td>0.4</td>
+      <td><ins>0.4</ins></td>
     </tr>
     <tr>
       <td>Plant4</td>
       <td>0.65</td>
-      <td>0.4</td>
+      <td><ins>0.4</ins></td>
       <td>0</td>
     </tr>
   </tbody>
 </table>
 
 
-0.15 Plant1
-0.15 Plant2
-0.2 Plant3
-0.2 Plant4
 
 <table>
   <tr>
@@ -213,19 +215,17 @@ j. When you join two clusters (or join a plant to a cluster), calculating the br
   <tr>
     <td>(Plant1, Plant2)</td>
     <td>0</td>
-    <td>0.675</td>
+    <td><ins>0.675</ins></td>
   </tr>
   <tr>
     <td>(Plant3, Plant4)</td>
-    <td>0.675</td>
+    <td><ins>0.675</ins></td>
     <td>0</td>
   </tr>
 </table>
 
-0.1875 Plant1
-0.15 Plant2
-0.1375 0.2 Plant3
-0.2 Plant4
+
 
 Follow the steps above until you have the placement and the branch lengths between all six plants.
 
+[Go to module 3](03-UPGMA_interpretation.md)
