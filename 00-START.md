@@ -5,6 +5,13 @@ As biologists, we spend a lot of time thinking about how organisms are related t
 
 We assume that if two organisms have a lot in common, they might be closely related to each other. However, by wondering which organisms are more related to each other, we are discussing phylogeny. [Phylogeny](https://en.wikipedia.org/wiki/Phylogenetic_tree) is the study of relationships between groups of organisms. Where taxonomists grouped similar organisms based on specific traits, phylogeneticists trace the evolutionary history of organismal lineages using quantifiable information such as genetic sequences. Finding related organisms can be intuitive (e.g. lemon, orange, lime) but it is not always so. Is a lemon more closely related to a papaya or a mango? How could you make a computer understand what relatedness is and quantify it?
 
+<p align="center">
+    <img src="./images/mbls207_tutorial6_1.png" width="200">
+</p>
+
 Today, you are going to study the relatedness of plants that we use for consumption. You are going to learn a bioinformatic way to quantify relatedness between organisms and you will use clustering to construct your first phylogenetic tree using a technique called [UPGMA (unweighted pair group method with arithmetic mean)](https://en.wikipedia.org/wiki/UPGMA). Finally, you are going to apply your knowledge to check whether the original, morphology-based taxonomy of the papaya was correct.
 
-
+Go through the modules 1 to 3 and complete the exercises.
+1. [Introduction](01-Introduction.md)
+2. [Drawing first UPGMA trees](02-UPGMA_tree_drawing.md)
+3. [UPGMA tree interpretation](03-UPGMA_interpretation.md)
