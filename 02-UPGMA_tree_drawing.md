@@ -129,13 +129,13 @@ Now that you have thought about the biological meaning of relatedness, let’s s
     <tr>
       <td>Plant1</td>
       <td>0</td>
-      <td>0.3</td>
+      <td><ins>0.3</ins></td>
       <td>0.9</td>
       <td>0.6</td>
     </tr>
     <tr>
       <td>Plant2</td>
-      <td>0.3</td>
+      <td><ins>0.3</ins></td>
       <td>0</td>
       <td>0.5</td>
       <td>0.7</td>
