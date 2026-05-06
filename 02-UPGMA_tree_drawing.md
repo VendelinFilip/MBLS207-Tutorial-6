@@ -26,7 +26,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
   </thead>
   <tbody>
     <tr>
-      <td><b>Carica papaya</b><br>(Papaya)</td>
+      <td><em>Carica papaya</em><br>(Papaya)</td>
       <td>CTTGTA</td>
       <td>TCATAG</td>
       <td>ATTAAG</td>
@@ -39,7 +39,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
       <td>AAACTG</td>
     </tr>
     <tr>
-      <td><b>Passiflora edulis</b><br>(Passionfruit)</td>
+      <td><em>Passiflora edulis</em><br>(Passionfruit)</td>
       <td>CTTGTA</td>
       <td>TCATTT</td>
       <td>ATTAAG</td>
@@ -52,7 +52,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
       <td>GAACTG</td>
     </tr>
     <tr>
-      <td><b>Brassica oleracea</b><br>(Broccoli)</td>
+      <td><em>Brassica oleracea</em><br>(Broccoli)</td>
       <td>CTTGTA</td>
       <td>TCATAT</td>
       <td>AGTAAG</td>
@@ -65,7 +65,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
       <td>AAACTG</td>
     </tr>
     <tr>
-      <td><b>Cannabis sativa</b><br>(Hemp)</td>
+      <td><em>Cannabis sativa</em><br>(Hemp)</td>
       <td>ATTGGA</td>
       <td>TCATAC</td>
       <td>ATTAAG</td>
@@ -78,7 +78,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
       <td>TAACTG</td>
     </tr>
     <tr>
-      <td><b>Humulus lupulus</b><br>(Hops)</td>
+      <td><em>Humulus lupulus</em><br>(Hops)</td>
       <td>ATTGGA</td>
       <td>TCATAA</td>
       <td>ATTAAG</td>
@@ -91,7 +91,7 @@ Now that you have thought about the biological meaning of relatedness, let’s s
       <td>TAACTG</td>
     </tr>
     <tr>
-      <td><b>Manihot esculenta</b><br>(Tapioca)</td>
+      <td><em>Manihot esculenta</em><br>(Tapioca)</td>
       <td>CTTGTA</td>
       <td>TCATTA</td>
       <td>CATAAG</td>
