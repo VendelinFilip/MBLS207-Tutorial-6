@@ -156,19 +156,10 @@ Now that you have thought about the biological meaning of relatedness, let’s s
     </tr>
   </tbody>
 </table>
+  
+<img src="./images/mbls207_tutorial6_2.png" width="200">
 
-&lt;img&gt;A phylogenetic tree diagram showing Plant1 and Plant2 connected by a branch to a common node.&lt;/img&gt;
-
-The UPGMA algorithm creates so-called “ultrametric” phylogenetic trees, which means that it assumes that all the organisms evolve with the same speed. According to this assumption, all evolutionary lineages follow the same molecular clock and every residue has the same probability of mutating in a given period of time. Therefore, if we consider any ancestral organism in the tree (ancestors are represented by an internal node) the total branch length from that node to any of the present-day organisms that descended from it is identical. In other words, the total branch length between any two organisms is
-
-&lt;page_number&gt;3&lt;/page_number&gt;
-
----
-
-
-## Page 4
-
-the same as two times the branch length between each organism and their most recent ancestor, also known as their last common ancestor (LCA). For example: The distance Plant1 → Plant2 is x, so the branches Ancestor<sub>1,2</sub> → Plant1 and Ancestor<sub>1,2</sub> → Plant2 are both x/2. Calculate the length of the branches from the previous question and write them down below the branches.
+The UPGMA algorithm creates so-called “ultrametric” phylogenetic trees, which means that it assumes that all the organisms evolve with the same speed. According to this assumption, all evolutionary lineages follow the same molecular clock and every residue has the same probability of mutating in a given period of time. Therefore, if we consider any ancestral organism in the tree (ancestors are represented by an internal node) the total branch length from that node to any of the present-day organisms that descended from it is identical. In other words, the total branch length between any two organisms is the same as two times the branch length between each organism and their most recent ancestor, also known as their last common ancestor (LCA). For example: The distance Plant1 → Plant2 is x, so the branches Ancestor<sub>1,2</sub> → Plant1 and Ancestor<sub>1,2</sub> → Plant2 are both *x/2*. Calculate the length of the branches from the previous question and write them down below the branches.
 
 h. Next, calculate the distance of your cluster (Plant1, Plant2) to the other plants, by calculating the average of the distances of Plant1 and Plant2 to each of the other plants. The result is a new distance matrix. For example: If the distance Plant1 → Plant3 is 0.9 and the distance Plant2 → Plant3 is 0.5, the distance (Plant1, Plant2) → Plant3 will be 0.7. **Note: it is important for this averaging step to use the distances between individual organisms from the very first distance matrix. This is relevant in later stages of the algorithm: when you have already created several clusters and adjusted the distance matrix, averaging the distances of clusters that have already been averaged will lead to different (wrong!) results than averaging distances of individual organisms (correct!).**
 
@@ -207,12 +198,6 @@ j. When you join two clusters (or join a plant to a cluster), calculating the br
   </tbody>
 </table>
 
-&lt;page_number&gt;4&lt;/page_number&gt;
-
----
-
-
-## Page 5
 
 0.15 Plant1
 0.15 Plant2
