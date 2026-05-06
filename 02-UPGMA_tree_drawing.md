@@ -1,6 +1,12 @@
+# Drawing first UPGMA trees
+
 Now that you have thought about the biological meaning of relatedness, let’s start looking into the bioinformatic side of things.
 
-e. Below, you see a multiple sequence alignment with (simulated) 18S rRNA gene sequences of six plants that are commonly consumed by humans (either in food, drinks, or by smoking). Can you think of a simple way to quantify the distance between the sequences?
+<ol type="a" start="5">
+  <li>
+    Below, you see a multiple sequence alignment with (simulated) 18S rRNA gene sequences of six plants that are commonly consumed by humans (either in food, drinks, or by smoking). Can you think of a simple way to quantify the distance between the sequences?
+  </li>
+</ol>
 
 <table>
   <thead>
@@ -100,19 +106,14 @@ e. Below, you see a multiple sequence alignment with (simulated) 18S rRNA gene s
   </tbody>
 </table>
 
-&lt;page_number&gt;2&lt;/page_number&gt;
-
----
-
-
-## Page 3
-
-f. Make an all-to-all distance matrix between the six plants. Note that distances are symmetric, so the distance Hemp -> Hops is the same as the distance Hops -> Hemp. Calculate the distance for the pairs Papaya -> Broccoli and Papaya -> Hemp. Take the rest of the values from Blackboard.
-**Tip:** to move a row in a Word table you can do that by: Windows) Click into the row you want to move, press Shift+Alt (not AltGr) and press Up arrow/Down arrow; Mac) After selecting the row, click and hold until the row appears to rise off the table and drag it.
-
-g. To make the UPGMA algorithm more easily understandable, we will illustrate the main steps using the small distance matrix below as an example (exercises g to j). (Tip: this is also illustrated in the following clip: youtu.be/09eD4A_HxVQ.). Make sure you understand each step, and apply it to your alignment with six plant sequences.
-
-First, start with the shortest distance between two species in the table and connect the two plants into a cluster. In our example, this is (Plant1, Plant2), like this:
+<ol type="a" start="6">
+  <li>
+    Make an all-to-all distance matrix between the six plants. Note that distances are symmetric, so the distance Hemp -> Hops is the same as the distance Hops -> Hemp. Calculate the distance for the pairs Papaya -> Broccoli and Papaya -> Hemp. Take the rest of the values from Blackboard.<br> <em><strong>Tip:</strong> to move a row in a Word table you can do that by: Windows) Click into the row you want to move, press Shift+Alt (not AltGr) and press Up arrow/Down arrow; Mac) After selecting the row, click and hold until the row appears to rise off the table and drag it.</em>
+  </li>
+  <li>
+    To make the UPGMA algorithm more easily understandable, we will illustrate the main steps using the small distance matrix below as an example (exercises <em>g</em> to <em>j</em>). (<em><strong>Tip:</strong> this is also illustrated in the following clip: <a href="https://www.youtube.com/watch?v=09eD4A_HxVQ">youtube.com/watch?v=09eD4A_HxVQ</a></em>.). Make sure you understand each step, and apply it to your alignment with six plant sequences.<br><br>First, start with the shortest distance between two species in the table and connect the two plants into a cluster. In our example, this is (Plant1, Plant2), like this:
+  </li>
+</ol>
 
 <table>
   <thead>
